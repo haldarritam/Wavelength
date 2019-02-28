@@ -1,0 +1,26 @@
+{
+  "name": "wavelength",
+  "version": "1.0.0",
+  "description": "A simple chat app.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haldarritam/Wavelength.git"
+  },
+  "keywords": [
+    "Chat"
+  ],
+  "author": "Ritam Haldar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haldarritam/Wavelength/issues"
+  },
+  "homepage": "https://github.com/haldarritam/Wavelength#readme",
+  "dependencies": {
+    "mongodb": "^3.1.13",
+    "socket.io": "^2.2.0"
+  }
+}
