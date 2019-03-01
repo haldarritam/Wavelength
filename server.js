@@ -44,7 +44,7 @@ mongo.connect('mongodb://127.0.0.1/wavelength', { useNewUrlParser: true }, funct
 
           //Send status object
           sendStatus({
-            messahe: 'Message sent',
+            message: 'Message sent',
             clear: true
           });
         });
